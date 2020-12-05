@@ -7,7 +7,7 @@ export default class AlunosDao extends GenericDao {
   }
 
   async listAlunos() {
-    const sql = 'select * from quiz.aluno';
+    const sql = 'select 1,2,3';
     return this.connection.oneOrNone(sql);
   }
 }
